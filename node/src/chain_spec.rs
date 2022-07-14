@@ -6,7 +6,7 @@ pub use nbchain_runtime::{
 use sc_service::{ChainType, Properties};
 use sp_consensus_aura::sr25519::AuthorityId as AuraId;
 use sp_core::{sr25519, Pair, Public, H160, U256};
-use sp_core::crypto::Ss58Codec;
+use sp_core::crypto::AccountId32;
 use sp_finality_grandpa::AuthorityId as GrandpaId;
 use sp_runtime::traits::{IdentifyAccount, Verify};
 
